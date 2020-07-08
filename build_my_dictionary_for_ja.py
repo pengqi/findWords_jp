@@ -6,11 +6,7 @@
 '''
 import sys
 import os
-
-sys.path.append(os.path.split(__file__)[0])
-
 import msvcrt
-import os
 import re
 from janome.tokenizer import Tokenizer
 
@@ -139,7 +135,7 @@ def select_words(old_words, word):
 
 
 if __name__ == '__main__':
-
+    sys.path.append(os.path.split(__file__)[0])
     print('加载中,请稍等...')
     module_path = os.path.dirname(__file__)
     path = module_path + "/article"
