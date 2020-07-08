@@ -78,7 +78,7 @@ def text_save(filename, data):
 
 
 def merge():
-    root = module_path + '\data_txt'
+    root = module_path + '\data'
     files = all_files_path(root)
     olds = []
     for i in files:
@@ -125,7 +125,7 @@ def select_words(old_words, word):
     elif butto == '3':
         number = 1
         while True:
-            output_txt = module_path + "/data_txt/old_words_" + str(number) + '.txt'
+            output_txt = module_path + "/data/old_words_" + str(number) + '.txt'
             if not os.path.exists(output_txt):
                 break
             number += 1
@@ -165,7 +165,7 @@ if __name__ == '__main__':
             old_words = select_words(old_words, words[i])
         number = 1
         while True:
-            output_txt = module_path + "/data_txt/old_words_" + str(number) + '.txt'
+            output_txt = module_path + "/data/old_words_" + str(number) + '.txt'
             if not os.path.exists(output_txt):
                 break
             number += 1

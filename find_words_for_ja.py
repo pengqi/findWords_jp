@@ -16,7 +16,7 @@ from janome.tokenizer import Tokenizer
 def merge():
     # 读取文件夹里的所有文件
     module_path = os.path.dirname(__file__)   
-    root = module_path + '\data_txt'
+    root = module_path + '\data'
     files = all_files_path(root)
     # 分词
     olds = []
