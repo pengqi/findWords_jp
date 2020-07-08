@@ -4,7 +4,7 @@ find the  words you don't know and understand in Japanese so that you can  recit
 
 ## How to use
 
-1. clone it
+1. clone or download it
 
 2. install the requirements
 
@@ -14,11 +14,11 @@ pip install -r requirements.txt
 
 3. put some txt files into the "article" directory, then you have two paths as follow
 
-	### find the word you know
+	 1）**find the word you know**
 
 	you just run the file "build_my_dictionary_for_ja.py", and you do according to the tips
 
-	### find the word you don't know
+	2）**find the word you don't know**
 	
 	just run "find_words_for_ja.py", and when it over, you can get a file on direction named "output"
 	
